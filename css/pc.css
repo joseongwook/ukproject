@@ -1,0 +1,54 @@
+@media screen and (max-width:1660px) {
+    .prd_btn_wrap .left {left: 2%;}
+    .prd_btn_wrap .right{right: 2%;}
+    .title_p {font-size: var(--fs_36);}
+}
+
+@media screen and (max-width:1600px) {
+    .inner{width: 85%;}
+    .art02 .text_box{left: 7%;}
+
+    .art05 .new_item_box {gap: 20px;}
+    .art05 .right_box{gap:22px;}
+    .art05 .left_box {display: flex; flex-direction: column;}
+
+    .art06 .item_box .second_box{gap:15px;}
+    .art06 .item_box .second_box .left_box {display: flex;overflow: hidden; height:100%; border-radius: 16px;}
+
+    .art07 .item_box {display: flex;justify-content:center;gap:50px;}
+    .art07 .item_box .item {padding: 60px 0px 40px 40px;}
+    .art07 .item_box .left_box .txt_box .title_p,
+    .art07 .item_box .right_box .txt_box .title_p{font-size: var(--fs_24);}
+}
+
+@media screen and (max-width:1400px) {
+    .txt_p{font-size: var(--fs_16);}
+    .prd_btn_wrap .swiper-button-next,
+    .prd_btn_wrap .swiper-button-prev{width:20px;}
+    .art05 .left_box{width: 60%;}
+    .art05 .right_box .item_box{width: 42%;}
+    .art05 .right_box .item_box .item.txt_box .prd_title{font-size: var(--fs_14);}
+    .art05 .right_box .item_box .item.img_box{width:50%;}
+    .art06 .item_box .second_box {gap: 10px;}
+    .art07 .item_box .txt_box .title_p{margin-bottom: 100px;}
+}
+
+@media screen and (max-width:1300px) {
+    .new_item_box .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-horizontal.swiper-pagination-bullets{width:35%;}
+    .art08{width: 90%;}
+    .art08 {gap: 80px; padding: 8% 0;}
+    .familsite_wrap{top: -68px; right: 24px;}
+}
+
+@media screen and (max-width:1200px) {
+    header .gnb_area nav{width:100%;justify-content: center;}
+    header .gnb_area nav .right_menu button{width:120px;}
+    header .gnb_area nav .right_menu{background-position: 71% 40%;}
+    header .gnb_area nav .right_menu .user_box{max-width: 30px;}
+    header .gnb_area nav .left_menu > ul > li{margin: 0 10px;}
+
+    .art03 .item_box .item .txt_box {padding: 15px 20px 15px;}
+    .art05 .left_box {width: 76%;}
+
+    .quick_bar{padding: 24px 10px;}
+}

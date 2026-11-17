@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>배스킨라빈스31 메인페이지</title>
+  <meta name="description" content="31 FLAVORS Make Every DAY Happy 한 달 내내 매일 한 가지씩 먹을 수 있는, 31가지의 다양한 아이스크림을 만나보세요!!"/>
+  <meta name="keywords" content="아이스크림, 아이스크림케잌, 디저트, 커피, 음료, 베스킨라빈스, 배스킨라빈스, 배라, 베라, baskinrobbins, br31"/>
+  <meta http-equiv="Subject" content="아이스크림, 디저트"/>
+  <meta http-equiv="Title" content="배스킨라빈스31">
+  <meta http-equiv="Build" content="2026-10-13">
+
+  <!-- reset css -->
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <!-- layout css -->
+  <link rel="stylesheet" href="./css/layout.css" type="text/css">
+  <!-- responsive css -->
+  <!-- pc / tablet / mobile -->
+  <link rel="stylesheet" href="./css/pc.css" type="text/css">
+  <link rel="stylesheet" href="./css/tablet.css" type="text/css">
+  <link rel="stylesheet" href="./css/mobile.css" type="text/css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- js -->
+  <script src="./js/common.js"></script>
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+</head>
+<body>
+  <!-- 상단 헤더 영영 -->
+  <header id="header">
+    <div class="top_banner_area pre">
+      <span>9월 이달의 맛, 인스타그램에 사진을 올려주세요</span>
+      <span class="close_icon" id="bannerCloseBtn"><img src="./images/close_wh.png" alt="닫기아이콘"></span>
+    </div>
+    <!-- PC 화면일때 표시 -->
+    <div class="logo_area display_none_1024">
+      <h1 class="logo"><a href="index.html"><img src="./images/header_logo.svg" alt="로고"></a></h1>
+    </div>
+    <div class="gnb_area display_none_1024">
+      <nav class="gnb">
+        <div class="left_menu">
+          <ul>
+            <li class="deps01">
+              <a class="pre" href="javascript:;" title="브랜드">브랜드</a>
+              <ul class="deps02">
+                <li><a class="pre" href="#" title="브랜드 스토리">브랜드 스토리</a></li>
+                <li><a class="pre" href="#" title="캠페인">캠페인</a></li>
+              </ul>
+            </li>
+            <li class="deps01">
+              <a class="pre" href="javascript:;" title="프로덕트">프로덕트</a>
+              <ul class="deps02">
+                <li><a class="pre" href="#" title="신제품">신제품</a></li>
+                <li><a class="pre" href="#" title="이달의 맛">이달의 맛</a></li>
+                <li><a class="pre" href="#" title="아이스크림">아이스크림</a></li>
+                <li><a class="pre" href="#" title="프리팩">프리팩</a></li>
+                <li><a class="pre" href="#" title="아이스크림 케잌">아이스크림 케잌</a></li>
+                <li><a class="pre" href="#" title="디저트">디저트</a></li>
+                <li><a class="pre" href="#" title="음료">음료</a></li>
+                <li><a class="pre" href="#" title="커피">커피</a></li>
+              </ul>
+            </li>
+            <li class="deps01">
+              <a class="pre" href="javascript:;" title="프로모션">프로모션</a>
+            </li>
+            <li class="deps01">
+              <a class="pre" href="javascript:;" title="스토어">스토어</a>
+              <ul class="deps02">
+                <li><a class="pre" href="#" title="매장찾기">매장찾기</a></li>
+                <li><a class="pre" href="#" title="점포문의">점포문의</a></li>
+              </ul>
+            </li>
+            <li class="deps01">
+              <a class="pre" href="javascript:;" title="배라앱">배라앱</a>
+              <ul class="deps02">
+                <li class="deps02"><a class="pre" href="#" title="어플리케이션">어플리케이션</a></li>
+              </ul>
+            </li>
+            <li class="deps01">
+              <a class="pre" href="javascript:;" title="커뮤니티">커뮤니티</a>
+              <ul class="deps02">
+                <li><a class="pre" href="#" title="소식">소식</a></li>
+                <li><a class="pre" href="#" title="공지사항">공지사항</a></li>
+                <li><a class="pre" href="#" title="FAQ">FAQ</a></li>
+                <li><a class="pre" href="#" title="배라그램">배라그램</a></li>
+                <li><a class="pre" href="#" title="해피포인트">해피포인트</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="right_menu">
+          <button class="search_btn" type="button" aria-label="검색"></button>
+          <div class="user_box"><a href="#"><img src="./images/user.png" alt="유저아이콘"></a></div>
+        </div>
+      </nav>
+    </div>
+    <!-- PC에선 숨김 / 모바일 화면일때 표시  -->
+    <div class="m_menu_wrap pc_hidden display_show_1024">
+      <div class="m_menu_area">
+        <div class="m_logo"><h1 class="logo"><a href="index.html"><img src="./images/header_logo.svg" alt="로고"></a></h1></div>
+        <button type="button" class="m_menu_btn" aria-label="메뉴 열기">
+          <img src="./images/m_menu.png" alt="전체메뉴">
+        </button>
+      </div>
+      <div class="m_gnb_area">
+        <button type="button" class="m_close_btn" aria-label="메뉴 닫기"><img src="./images/m_menu_close.png" alt="닫기 버튼"></button>
+        <nav class="m_gnb">
+          <div class="m_lnb">
+            <a href="#" title="검색 페이지 이동하기"><img src="./images/search.png" alt="검색 아이콘"></a>
+            <a href="#" title="로그인">로그인</a>
+            <a href="#" title="회원가입">회원가입</a>
+            <a href="#" title="커뮤니티">커뮤니티</a>
+          </div>
+          <ul>
+            <li>
+              <a class="pre" href="javascript:;">브랜드</a>
+              <ul class="m_sub_menu">
+                <li><a class="pre" href="#" title="브랜드 스토리">브랜드 스토리</a></li>
+                <li><a class="pre" href="#" title="캠페인">캠페인</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="pre" href="javascript:;" title="프로덕트">프로덕트</a>
+              <ul class="m_sub_menu">
+                <li><a class="pre" href="#" title="신제품">신제품</a></li>
+                <li><a class="pre" href="#" title="이달의 맛">이달의 맛</a></li>
+                <li><a class="pre" href="#" title="아이스크림">아이스크림</a></li>
+                <li><a class="pre" href="#" title="프리팩">프리팩</a></li>
+                <li><a class="pre" href="#" title="아이스크림케잌">아이스크림케잌</a></li>
+                <li><a class="pre" href="#" title="디저트">디저트</a></li>
+                <li><a class="pre" href="#" title="음료">음료</a></li>
+                <li><a class="pre" href="#" title="커피">커피</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="pre" href="javascript:;">프로모션</a>
+              <ul class="m_sub_menu">
+                <li><a class="pre" href="#" title="프로모션">프로모션</a></li>
+              </ul>
+            </li>
+          <li>
+            <a class="pre" href="javascript:;">매장찾기</a>
+            <ul class="m_sub_menu">
+              <li><a class="pre" href="#" title="매장찾기">매장찾기</a></li>
+              <li><a class="pre" href="#" title="점포문의">점포문의</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="pre" href="javascript:;" title="배라앱">배라앱</a>
+            <ul class="m_sub_menu">
+              <li><a class="pre" href="#" title="어플리케이션">어플리케이션</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="pre" href="javascript:;" title="소식">소식</a>
+            <ul class="m_sub_menu">
+              <li><a class="pre" href="#" title="공지사항">공지사항</a></li>
+              <li><a class="pre" href="#" title="FAQ">FAQ</a></li>
+              <li><a class="pre" href="#" title="배라그램">배라그램</a></li>
+              <li><a class="pre" href="#" title="해피포인트">해피포인트</a></li>
+            </ul>
+          </li>
+        </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- serch 버튼 클릭시 나타나는 모달창-->
+    <div class="search_area">
+      <div class="input_box">
+        <input type="text" placeholder="상품을 입력해주세요">
+        <a class="big_searh_btn" href="javascript:;"><img src="./images/big_search.png" alt="서치아이콘"></a>
+      </div>
+      <div class="close_box">
+        <a class="big_close_btn" href="javascript:;"><img src="./images/search_close.png" alt="닫기 아이콘"></a>
+      </div>
+    </div>
+  </header>
+  <!-- 메인 영역 -->
+  <main>
+    <!-- section01 메인슬라이드 영역 -->
+    <section class="section01">
+      <h2 class="blind">Main Slide</h2>
+      <article class="art01">
+        <h3 class="blind">Main Slide area</h3>
+        <!-- Swiper -->
+        <div class="swiper mySwiper slide01">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="display_none_767" src="./images/main01.jpg" alt="메인슬라이드 이미지01">
+              <img class="pc_hidden display_show_767" src="./images/m_main01.jpg" alt="메인슬라이드 이미지01">
+              <div class="text_box">
+                <P class="title_p pre">이달의 맛 파티 OPEN<span class="info_p">상큼한 생딸기와 풍성한 아이스크림의 만남</span></P>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img class="display_none_767" src="./images/main02.jpg" alt="메인슬라이드 이미지02">
+              <img class="pc_hidden display_show_767" src="./images/m_main02.jpg" alt="메인슬라이드 이미지02">
+              <div class="text_box">
+                <P class="title_p pre">달콤한 스트로베리 타임<span class="info_p">싱글 컵으로 가볍게 즐기는 휴식</span></P>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img class="display_none_767" src="./images/main03.jpg" alt="메인슬라이드 이미지03">
+              <img class="pc_hidden display_show_767" src="./images/m_main03.jpg" alt="메인슬라이드 이미지03">
+              <div class="text_box">
+                <P class="title_p pre">초코 & 딸기 꿀조합<span class="info_p">진한 초코와 상큼한 딸기의 밸런스</span></P>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img class="display_none_767" src="./images/main04.jpg" alt="메인슬라이드 이미지04">
+              <img class="pc_hidden display_show_767" src="./images/m_main04.jpg" alt="메인슬라이드 이미지04">
+              <div class="text_box">
+                <P class="title_p pre">바삭한 와플콘의 행복<span class="info_p">언제나 기분 좋은 배라의 시그니처</span></P>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img class="display_none_767" src="./images/main05.jpg" alt="메인슬라이드 이미지05">
+              <img class="pc_hidden display_show_767" src="./images/m_main05.jpg" alt="메인슬라이드 이미지05">
+              <div class="text_box">
+                <P class="title_p pre">부드러운 핑크빛 설렘<span class="info_p">입안 가득 퍼지는 달콤함</span></P>
+              </div>
+            </div>
+          </div>
+          <div class="slide_btn_wrap">
+            <div class="navi_gation">
+              <div class="swiper-button-next main_slide_next"></div>
+              <div class="swiper-button-prev main_slide_prev"></div>
+            </div>
+            <div class="pagination pre"><div class="swiper-pagination"></div></div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- section02 브랜드스토리 영역 -->
+    <section class="section02">
+      <h2 class="blind">BRAND STORY</h2>
+      <article class="art02" data-aos="fade-up" data-aos-duration="1500">
+        <img class="display_none_767" src="./images/brandstory.jpg" alt="">
+        <img class="pc_hidden display_show_767" src="./images/m_brandstory.jpg" alt="">
+        <div class="text_box">
+          <h2 class="title_p mont">31 FLAVORS Make <br>Every DAY Happy</h2>
+          <p class="info_p pre">당신의 입안 가득 펼쳐지는<br class="pc_hidden display_show_480"> 특별한 달콤함의 순간</p>
+          <div class="button_box">
+            <a href="#" title="브랜드스토리 페이지 이동" class="mont">BASKIN <img class="view_arrow" src="./images/btn_right_arrow.png" alt="화살표"></a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- section03 프로모션 영역 -->
+    <section class="section03">
+      <h2 class="blind">PROMOTION</h2>
+      <article class="art03 inner">
+        <div class="text_box" data-aos="fade-up" data-aos-duration="2700">
+          <h2 class="title_p mont">PROMOTION</h2>
+          <p class="info_p pre">달콤함을 두 배로 더해줄 이달의 이벤트 & 신메뉴</p>
+        </div>
+        <div class="item_box">
+          <a class="item" href="#" title="프로모션 메가팩" data-aos="fade-up" data-aos-duration="1500">
+            <div class="promotion_box">
+              <div class="img_box"><img src="./images/promotion_list_01.png" alt="프로모션"></div>
+              <div class="txt_box pre">
+                <p class="txt_p">9가지맛 메가팩 사전예약 한정 20% 할인</p>
+                <span class="info_span">2026. 09. 01 ~ 2026. 09. 18</span>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="item" title="워크샾" data-aos="fade-up" data-aos-duration="3000">
+            <div class="promotion_box">
+              <div class="img_box"><img src="./images/promotion_list_02.png" alt="프로모션"></div>
+              <div class="txt_box pre">
+                <p class="txt_p">워크샵 by 그랜드 오픈 이벤트</p>
+                <span class="info_span">상시운영</span>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="item" title="9월 이달의 맛" data-aos="fade-up" data-aos-duration="2500">
+            <div class="promotion_box">
+              <div class="img_box"><img src="./images/promotion_list_03.png" alt="프로모션"></div>
+              <div class="txt_box pre">
+                <p class="txt_p">9월 이달의 맛 ! 인스타그램에 사진을 올려주세요</p>
+                <span class="info_span">2026. 09. 01 ~ 2026. 09. 26</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <!-- section04 제품 영역 -->
+    <section class="section04">
+      <h2 class="blind">PRODUCT</h2>
+      <article class="art04 inner">
+        <div class="text_box">
+          <h2 class="title_p mont" data-aos="fade-right" data-aos-duration="2500">PRODUCT</h2>
+          <div class="button_box" data-aos="fade-left" data-aos-duration="2500">
+            <a href="#" class="pre">더보기 <img src="./images/btn_right_arrow.png" alt="화살표"></a>
+          </div>
+        </div>
+        <div class="tab_menu">
+          <ul>
+            <li class="on"><a class="active pre" href="javascript:;">이달의 맛</a></li>
+            <li><a class="pre" href="javascript:;">아이스크림</a></li>
+            <li><a class="pre" href="javascript:;">프리팩</a></li>
+            <li><a class="pre" href="javascript:;">아이스크림 케잌</a></li>
+            <li><a class="pre" href="javascript:;">디저트</a></li>
+            <li><a class="pre" href="javascript:;">음료</a></li>
+            <li><a class="pre" href="javascript:;">커피</a></li>
+          </ul>
+        </div>
+        <div class="prd_box" data-aos="fade-in" data-aos-duration="2700">
+          <!-- 탭 메뉴 1번 -->
+          <div class="swiper mySwiper prd_slide01 prd_slide on" id="prd_slide01">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./images/prd_list01.png" alt="이달의 맛 상품"></div>
+              <div class="swiper-slide"><img src="./images/prd_list02.png" alt="이달의 맛 상품"></div>
+              <div class="swiper-slide"><img src="./images/prd_list03.png" alt="이달의 맛 상품"></div>
+              <div class="swiper-slide"><img src="./images/prd_list04.png" alt="이달의 맛 상품"></div>
+              <div class="swiper-slide"><img src="./images/prd_list02.png" alt="이달의 맛 상품"></div>
+              <div class="swiper-slide"><img src="./images/prd_list01.png" alt="이달의 맛 상품"></div>
+              <div class="swiper-slide"><img src="./images/prd_list04.png" alt="이달의 맛 상품"></div>
+              <div class="swiper-slide"><img src="./images/prd_list03.png" alt="이달의 맛 상품"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- 탭 메뉴 2번 -->
+          <div class="swiper mySwiper prd_slide prd_slide02" id="prd_slide02">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./images/prd_list05.png" alt="아이스크림"></div>
+              <div class="swiper-slide"><img src="./images/prd_list06.png" alt="아이스크림"></div>
+              <div class="swiper-slide"><img src="./images/prd_list07.png" alt="아이스크림"></div>
+              <div class="swiper-slide"><img src="./images/prd_list08.png" alt="아이스크림"></div>
+              <div class="swiper-slide"><img src="./images/prd_list06.png" alt="아이스크림"></div>
+              <div class="swiper-slide"><img src="./images/prd_list05.png" alt="아이스크림"></div>
+              <div class="swiper-slide"><img src="./images/prd_list08.png" alt="아이스크림"></div>
+              <div class="swiper-slide"><img src="./images/prd_list07.png" alt="아이스크림"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- 탭 메뉴 3번 -->
+          <div class="swiper mySwiper prd_slide prd_slide03" id="prd_slide03">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./images/prd_list09.png" alt="프리팩"></div>
+              <div class="swiper-slide"><img src="./images/prd_list10.png" alt="프리팩"></div>
+              <div class="swiper-slide"><img src="./images/prd_list11.png" alt="프리팩"></div>
+              <div class="swiper-slide"><img src="./images/prd_list12.png" alt="프리팩"></div>
+              <div class="swiper-slide"><img src="./images/prd_list10.png" alt="프리팩"></div>
+              <div class="swiper-slide"><img src="./images/prd_list09.png" alt="프리팩"></div>
+              <div class="swiper-slide"><img src="./images/prd_list12.png" alt="프리팩"></div>
+              <div class="swiper-slide"><img src="./images/prd_list11.png" alt="프리팩"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- 탭 메뉴 4번 -->
+          <div class="swiper mySwiper prd_slide  prd_slide04" id="prd_slide04">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./images/prd_list13.png" alt="아이스크림 케잌"></div>
+              <div class="swiper-slide"><img src="./images/prd_list14.png" alt="아이스크림 케잌"></div>
+              <div class="swiper-slide"><img src="./images/prd_list15.png" alt="아이스크림 케잌"></div>
+              <div class="swiper-slide"><img src="./images/prd_list16.png" alt="아이스크림 케잌"></div>
+              <div class="swiper-slide"><img src="./images/prd_list15.png" alt="아이스크림 케잌"></div>
+              <div class="swiper-slide"><img src="./images/prd_list13.png" alt="아이스크림 케잌"></div>
+              <div class="swiper-slide"><img src="./images/prd_list14.png" alt="아이스크림 케잌"></div>
+              <div class="swiper-slide"><img src="./images/prd_list16.png" alt="아이스크림 케잌"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- 탭 메뉴 5번 -->
+          <div class="swiper mySwiper prd_slide prd_slide05" id="prd_slide05">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./images/prd_list17.png" alt="디저트"></div>
+              <div class="swiper-slide"><img src="./images/prd_list18.png" alt="디저트"></div>
+              <div class="swiper-slide"><img src="./images/prd_list19.png" alt="디저트"></div>
+              <div class="swiper-slide"><img src="./images/prd_list20.png" alt="디저트"></div>
+              <div class="swiper-slide"><img src="./images/prd_list18.png" alt="디저트"></div>
+              <div class="swiper-slide"><img src="./images/prd_list20.png" alt="디저트"></div>
+              <div class="swiper-slide"><img src="./images/prd_list19.png" alt="디저트"></div>
+              <div class="swiper-slide"><img src="./images/prd_list17.png" alt="디저트"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- 탭 메뉴 6번 -->
+          <div class="swiper mySwiper prd_slide prd_slide06" id="prd_slide06">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./images/prd_list21.png" alt="음료"></div>
+              <div class="swiper-slide"><img src="./images/prd_list22.png" alt="음료"></div>
+              <div class="swiper-slide"><img src="./images/prd_list23.png" alt="음료"></div>
+              <div class="swiper-slide"><img src="./images/prd_list24.png" alt="음료"></div>
+              <div class="swiper-slide"><img src="./images/prd_list22.png" alt="음료"></div>
+              <div class="swiper-slide"><img src="./images/prd_list23.png" alt="음료"></div>
+              <div class="swiper-slide"><img src="./images/prd_list24.png" alt="음료"></div>
+              <div class="swiper-slide"><img src="./images/prd_list21.png" alt="음료"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- 탭 메뉴 7번 -->
+          <div class="swiper mySwiper prd_slide prd_slide07" id="prd_slide07">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./images/prd_list25.png" alt="커피"></div>
+              <div class="swiper-slide"><img src="./images/prd_list26.png" alt="커피"></div>
+              <div class="swiper-slide"><img src="./images/prd_list27.png" alt="커피"></div>
+              <div class="swiper-slide"><img src="./images/prd_list28.png" alt="커피"></div>
+              <div class="swiper-slide"><img src="./images/prd_list26.png" alt="커피"></div>
+              <div class="swiper-slide"><img src="./images/prd_list28.png" alt="커피"></div>
+              <div class="swiper-slide"><img src="./images/prd_list25.png" alt="커피"></div>
+              <div class="swiper-slide"><img src="./images/prd_list27.png" alt="커피"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </article>
+      <div class="prd_btn_wrap">
+        <div class="swiper-button-next right"></div>
+        <div class="swiper-button-prev left"></div>
+      </div>
+    </section>
+
+    <!-- section05 뉴아이템 영역 -->
+    <section class="section05">
+      <h2 class="blind">NEW ITEM</h2>
+      <article class="art05 inner">
+        <div class="text_box">
+          <h2 class="title_p mont">NEW ITEM</h2>
+          <p class="info_p pre">놓치면 아쉬운 배라의 새로운 즐거움</p>
+        </div>
+        <div class="new_item_box">
+          <div class="left_box" data-aos="fade-right" data-aos-duration="2500">
+            <div class="swiper mySwiper new_item_slide">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#"><img src="./images/new_item_list01.png" alt="신제품 아이스크림"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/new_item_list02.png" alt="신제품 아이스크림"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/new_item_list03.png" alt="신제품 아이스크림"></a></div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <div class="right_box" data-aos="fade-left" data-aos-duration="2500">
+            <div class="item_box">
+              <div class="item img_box"><img src="./images/new_item01.jpg" alt="퐁당 민트 초코 쿠키"></div>
+              <div class="item txt_box">
+                <p class="prd_title pre">퐁당 민트 초코 쿠키</p>
+                <a class="more_view pre" href="#" title="상품보러가기">상품보러가기</a>
+              </div>
+            </div>
+            <div class="item_box">
+              <div class="item img_box"><img src="./images/new_item02.jpg" alt="망고 베리 스위트콘"></div>
+              <div class="item txt_box">
+                <p class="prd_title pre">망고 베리 스위트콘</p>
+                <a class="more_view pre" href="#" title="상품보러가기">상품보러가기</a>
+              </div>
+            </div>
+            <div class="item_box">
+              <div class="item img_box"><img src="./images/new_item03.jpg" alt="단짠 카라멜 초코 퐁당"></div>
+              <div class="item txt_box">
+                <p class="prd_title pre">카라멜 초코 퐁당</p>
+                <a class="more_view pre" href="#" title="상품보러가기">상품보러가기</a>
+              </div>
+            </div>
+            <div class="item_box">
+              <div class="item img_box"><img src="./images/new_item04.jpg" alt="라벤더 베릴 드림"></div>
+              <div class="item txt_box">
+                <p class="prd_title pre">라벤더 베릴 드림</p>
+                <a class="more_view pre" href="#" title="상품보러가기">상품보러가기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button_box">
+          <a href="#" class="pre">신상품 전체보기 <img src="./images/btn_right_arrow.png" alt="화살표"></a>
+        </div>
+      </article>
+    </section>
+
+    <!-- section06 배라 캠패인 영역 -->
+    <section class="section06">
+      <h2 class="blind">Bera Campaign</h2>
+      <article class="art06 inner">
+        <div class="text_box" data-aos="fade-up" data-aos-duration="1500">
+          <h2 class="title_p mont">BERA CAMPAIGN</h2>
+          <div class="button_box">
+            <a href="#" class="pre">캠페인 보러가기 <img src="./images/btn_right_arrow.png" alt="화살표"></a>
+          </div>
+        </div>
+
+        <div class="item_box">
+          <div class="first_box item pre" data-aos="fade-up" data-aos-duration="2000">
+            <div class="box_wrap">
+              <div class="img">
+                <img src="./images/campaign_logo.png" alt="배스킨라빈스 로고">
+              </div>
+              <div class="txt_box">
+                배스킨라빈스의 대표<br>
+                사회공헌 활동 ‘핑크드림 캠페인’
+              </div>
+              <div class="txt_box">
+                핑크드림 캠페인은<br>
+                브랜드와 소비자가 함께 도움이 필요한 이웃을<br>
+                지원하는 사회공헌 활동입니다.
+              </div>
+              <div class="txt_box">
+                배스킨라빈스는 2023년부터 핑크드림<br>
+                캠페인의 일환으로 월드비전과 협업해<br>
+                브랜드의 대표적 행사인 ‘31데이’ 수익의<br>
+                3.1%를 기부금으로 적립하고 있습니다.
+              </div>
+            </div>
+          </div>
+          <div class="second_box item" data-aos="fade-up" data-aos-duration="2500" >
+            <div class="box_wrap">
+              <div class="img_box">
+                <img src="./images/campaign_img01.jpg" alt="배라 캠페인 이미지">
+              </div>
+            </div>
+          </div>
+          <div class="third_box item" data-aos="fade-up" data-aos-duration="3000">
+            <div class="box_wrap">
+              <div class="txt_box">
+                <p class="title_p">케피 버블 클레이</p>
+                <span class="info_p">
+                  안전한 옥수수전분으로 만든 점토비누<br>
+                  순한 성분(6가지 식물오일 함유, 프로폴리스 추출물 등)<br>
+                  마음껏 만들며 놀고 굳히면 나만의 천연비누 완성!
+                </span>
+              </div>
+              <div class="txt_box">
+                <p class="title_p">케피 배쓰밤 라인업</p>
+                <span class="info_p">
+                  어린이 맞춤 용랑 배쓰밤(1회 80g*3개입)<br>
+                  오감 자극 목욕놀이 맞춤 색상&향<br>
+                  자연유래 안심성분(비타민나무오일, 프로폴리스,<br>
+                  마누카꿀 추출물)<br>
+                  검증된 안정성(피부 무자극 0.00)
+                </span>
+              </div>
+              <div class="txt_box">
+                <p class="title_p">케피 버블 슬라임</p>
+                <span class="info_p">
+                  국내 최초 촉감놀이 목욕 슬라임(화장품 등급)<br>
+                  순한 자연유래 성분(다시마, 미역, 프로폴리스, 병풀 추출물)<br>
+                  검증된 안정성(독일 더마테스트, EWG 올그린, 피부 저자극 <br>
+                  테스트 완료)
+                </span>
+              </div>
+              <div class="txt_box">
+                <p class="title_p">케피 배쓰밤 클렌저</p>
+                <span class="info_p">
+                  국내 최초 목욕놀이 유아 버블 클렌저<br>
+                  순하고 안전한 성분(나노세라마이드, 마누카꿀 /<br>
+                  프로폴리스 추출물)<br>
+                  검증된 안전성(독일 더마테스트, 방부력 테스트,<br>
+                  피부 무자극 0.00)
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- section07 배라앱/매장위치 영역 -->
+    <section class="section07">
+      <h2 class="blind">Bera APP & Store</h2>
+      <article class="art07 inner">
+        <div class="text_box">
+          <h2 class="title_p mont">BERA NEAR YOU</h2>
+          <p class="info_p pre">내 손안에서 만나는 달콤한 혜택과 매장 안내</p>
+        </div>
+        <div class="item_box">
+          <div class="item left_box" data-aos="fade-up" data-aos-duration="2500">
+            <div class="txt_box">
+              <p class="title_p pre"><span class="info_p">매일 터지는 스윗 혜택!</span>31가지 즐거움, 앱으로 픽!</p>
+              <div class="button_box">
+                <a href="#" class="pre">앱 다운로드 <img src="./images/btn_right_arrow.png" alt="화살표"></a>
+              </div>
+            </div>
+            <div class="img_box">
+              <img src="./images/app.png" alt="배라앱">
+            </div>
+          </div>
+          <div class="item right_box" data-aos="fade-up" data-aos-duration="2500">
+            <div class="txt_box">
+              <p class="title_p pre"><span class="info_p">지금 당장 아이스크림 땡길 때!</span>내 주변 배라는 어디 있을까?!</p>
+              <div class="button_box">
+                <a href="#" class="pre">가까운 매장 찾기 <img src="./images/btn_right_arrow.png" alt="화살표"></a>
+              </div>
+            </div>
+            <div class="img_box">
+              <img src="./images/location.png" alt="매장위치">
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- 하단 푸터 영역 -->
+  <footer>
+    <article class="art08" >
+      <h2 class="blind">footer</h2>
+      <div class="left_box ft_logo_area"><a href="#" title="메인페이지로 바로가기"><img src="./images/footer_logo.png" alt=""></a></div>
+      <div class="right_box">
+        <nav class="footer_nav first display_none_767">
+          <ul class="link_box left">
+            <li><a href="#" title="브랜드">브랜드</a></li>
+            <li><a href="#" title="프로덕트">프로덕트</a></li>
+            <li><a href="#" title="프로모션">프로모션</a></li>
+            <li><a href="#" title="스토어">스토어</a></li>
+            <li><a href="#" title="배라앱">배라앱</a></li>
+            <li><a href="#" title="커뮤니티">커뮤니티</a></li>
+          </ul>
+          <ul class="link_box right">
+            <li><a href="#"><img src="./images/facebook.png" alt="페이스북"></a></li>
+            <li><a href="#"><img class="insta" src="./images/insta.png" alt="인스타"></a></li>
+            <li><a href="#"><img src="./images/youtube.png" alt="유튜브"></a></li>
+          </ul>
+        </nav>
+        <nav class="footer_nav second display_none_767">
+          <ul class="link_box mid">
+            <li><a href="#" title="이용약관">이용약관</a></li>
+            <li><a href="#" title="개인정보처리방침">개인정보처리방침</a></li>
+            <li><a href="#" title="입점문의">입점문의</a></li>
+          </ul>
+        </nav>
+        <address class="third display_none_767">
+          <div class="address top">
+            <span>주소: 서울특별시 서초구 남부순환로 0000(양재동 00-000번지)</span>
+            <span>비알 코리아(주) 대표이사 000</span>
+          </div>
+          <div class="address bottom">
+            <span>사업자 등록번호 : 000-000-00000</span>
+            <span>개인정보관리책임자 : 000/실장</span>
+          </div>
+          <div class="tel"><a href="TELL:080-000-0000">080-000-0000</a></div>
+        </address>
+        <nav class="footer_nav pc_hidden display_show_767">
+          <ul class="link_box first_box">
+            <li><a href="#" title="브랜드">브랜드</a></li>
+            <li><a href="#" title="프로덕트">프로덕트</a></li>
+            <li><a href="#" title="프로모션">프로모션</a></li>
+            <li><a href="#" title="스토어">스토어</a></li>
+          </ul>
+          <ul class="link_box second_box">
+            <li><a href="#" title="배라앱">배라앱</a></li>
+            <li><a href="#" title="커뮤니티">커뮤니티</a></li>
+            <li><a href="#"><img src="./images/facebook.png" alt="페이스북"></a></li>
+            <li><a href="#"><img class="insta" src="./images/insta.png" alt="인스타"></a></li>
+            <li><a href="#"><img src="./images/youtube.png" alt="유튜브"></a></li>
+          </ul>
+          <ul class="link_box third_box">
+            <li><a href="#" title="이용약관">이용약관</a></li>
+            <li><a href="#" title="개인정보처리방침">개인정보처리방침</a></li>
+            <li><a href="#" title="입점문의">입점문의</a></li>
+          </ul>
+        </nav>
+        <address class="third pc_hidden display_show_767">
+          <div class="address">
+            <span>주소: 서울특별시 서초구 남부순환로 0000(양재동 00-000번지)</span>
+          </div>
+          <div class="address">
+            <span>비알 코리아(주) 대표이사 000</span>
+          </div>
+          <div class="address">
+            <span>사업자 등록번호 : 000-000-00000</span>
+          </div>
+          <div class="address">
+            <span>개인정보관리책임자 : 000/실장</span>
+          </div>
+          <div class="tel"><a href="TELL:080-000-0000">080-000-0000</a></div>
+        </address>
+        <div class="forth last">
+          <div class="copy_wrap">
+            <span>Copyright © 2023 BRKOREA Company. <br class="pc_hiddne display_show_767">All Rights Reserved.</span>
+          </div>
+          <div class="familsite_wrap pc_hidden display_show_767">
+            <div class="family_select_box">
+              <!-- 클릭해서 여닫는 버튼 영역 -->
+              <button type="button" class="family_btn">
+                <span class="mont">FAMILY SITE</span>
+                <img class="arrow_icon" src="./images/select_arrow.png" alt="">
+              </button>
+              <ul class="family_list">
+                <li><a href="javascript:;" title="SPC 그룹사이트">SPC 그룹사이트</a></li>
+                <li><a href="javascript:;" title="SPC MAGAZINE">SPC MAGAZINE</a></li>
+                <li><a href="javascript:;" title="해피포인트카드">해피포인트카드</a></li>
+                <li><a href="javascript:;" title="파스쿠찌">파스쿠찌</a></li>
+                <li><a href="javascript:;" title="삼립">삼립</a></li>
+                <li><a href="javascript:;" title="파리바게뜨">파리바게뜨</a></li>
+                <li><a href="javascript:;" title="던킨">던킨</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <div class="familsite_wrap display_none_767">
+            <div class="family_select_box">
+              <!-- 클릭해서 여닫는 버튼 영역 -->
+              <button type="button" class="family_btn">
+                <span class="mont">FAMILY SITE</span>
+                <img class="arrow_icon" src="./images/select_arrow.png" alt="">
+              </button>
+              <ul class="family_list">
+                <li><a href="javascript:;" title="SPC 그룹사이트">SPC 그룹사이트</a></li>
+                <li><a href="javascript:;" title="SPC MAGAZINE">SPC MAGAZINE</a></li>
+                <li><a href="javascript:;" title="해피포인트카드">해피포인트카드</a></li>
+                <li><a href="javascript:;" title="파스쿠찌">파스쿠찌</a></li>
+                <li><a href="javascript:;" title="삼립">삼립</a></li>
+                <li><a href="javascript:;" title="파리바게뜨">파리바게뜨</a></li>
+                <li><a href="javascript:;" title="던킨">던킨</a></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </article>
+  </footer>
+  <aside class="quick_wrap">
+    <div class="quick_bar">
+        <div class="text_box">Follow Us</div>
+        <div class="icon_box"><a href="#"><img src="./images/quick_facebook.png" alt="페이스북 아이콘"></a></div>
+        <div class="icon_box"><a href="#"><img src="./images/quick_insta.png" alt="인스타 아이콘"></a></div>
+        <div class="icon_box"><a href="#"><img src="./images/quick_youtube.png" alt="유튜브 아이콘"></a></div>
+    </div>
+    <div class="btn_top_wrap"><a href="#"><img src="./images/btn_top.png" alt="탑버튼"></a></div>
+  </aside>
+</body>
+<!-- AOS 스크립트 시작 -->
+<script> 
+    AOS.init();
+</script>
+</html>
